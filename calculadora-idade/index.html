@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Calculadora de Idade</title>
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="inputs-wrapper">
+          <input type="date" name="date" id="date-input" />
+          <button onclick="ageCalculate()">Calculadora</button>
+        </div>
+
+        <div class="diamesano">Day DD Month MM Year YYYY</div>
+        <div class="icone">
+          <img class="icon" src="./images/icon-arrow.svg" alt="" />
+          <div class="linha"></div>
+        </div>
+        <div class="resultado">-- years -- months -- days</div>
+      </div>
+    </main>
+  </body>
+</html>

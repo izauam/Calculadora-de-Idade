@@ -1,0 +1,26 @@
+main {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 25%;
+}
+
+.inputs-wrapper {
+  padding-top: 40px;
+}
+
+main .icone .icon {
+  position: relative;
+  background-color: black;
+  margin-left: 100%;
+  border-radius: 50%;
+}
+
+main .icone .linha {
+  border-bottom: 1px solid #dcdcdc;
+  text-align: center;
+}
+
+.resultado {
+  padding-bottom: 40px;
+}
